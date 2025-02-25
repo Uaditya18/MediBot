@@ -22,7 +22,7 @@ def load_llm(huggingface_repo_id):
 # connect llm with faiss and create chain
 
 custom_prompt_template = """
-Use the piece of information provided in the context to answer the user's question. If you dont know the answer, just say you dont know, dont try to make up an answer.add()Dont provide anything out of the given context
+Use the piece of information provided in the context to answer the user's question. If you dont know the answer, just say you dont know, dont try to make up an answer.add(), Dont provide anything out of the given context
 
 Context : {context}
 Question : {question}

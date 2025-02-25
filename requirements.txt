@@ -1,6 +1,6 @@
 langchain
+langchain-community
+langchain-huggingface
 faiss-cpu
 pypdf
 streamlit
-huggingface_hub
-python-dotenv
