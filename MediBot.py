@@ -1,6 +1,9 @@
 import streamlit as st
 import os
+
 from langchain_huggingface import HuggingFaceEmbeddings
+
+
 from langchain.chains import RetrievalQA
 
 from langchain_community.vectorstores import FAISS
