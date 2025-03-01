@@ -48,7 +48,10 @@ def main():
         st.session_state.messages.append({'role':'user','content':prompt})
 
         custom_prompt_template = """
-              Use the piece of information provided in the context to answer the user's question. If you dont know the answer, just say you dont know, dont try to make up an answer.add()Dont provide anything out of the given context
+              1. Use the piece of information provided in the context to answer the user's question. 
+              2. If you dont know the answer, just say you dont know, dont try to make up an answer.add()Dont provide anything out of the given context,
+              3. if user ask general query for normal chat response it properly,
+              4. remember the previously context and response accordingly
 
               Context : {context}
               Question : {question}
